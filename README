@@ -42,21 +42,23 @@ Below are the screenshots demonstrating the core functionality of the Interactiv
 
 ## 📸 Visual Documentation
 
-Below are the screenshots proving the interactive functionality of the portfolio.
+## 📸 Visual Documentation
 
-### 1. Light Mode
-The initial landing page featuring the navigation bar and the first project image (image1.png).
+Below are the screenshots of the interactive features implemented in this project.
+
+### 1. Light Mode View
+This screenshot shows the portfolio's default light theme and the project slider.
 ![Light Mode](screenshot/lightmode.png)
 
-### 2. Dark Mode
-The theme toggled via JavaScript, applying a dark background and high-contrast text.
+### 2. Dark Mode View
+This screenshot demonstrates the dark theme toggle functionality and state persistence.
 ![Dark Mode](screenshot/darkmode.png)
 
-### 3. Form Validation Error
-Demonstrating the validation logic when an invalid email is entered or the message is too short.
+### 3. Validation Success
+This shows the feedback provided when the contact form is filled out correctly.
+![Validation Success](screenshot/success.png)
+
+### 4. Validation Error
+This shows the error handling when the email format is incorrect or the message is too short.
 ![Validation Error](screenshot/error.png)
 
-### 4. Form Validation Success
-Confirming the success state once the user inputs correct data and the form is cleared.
-
-![Validation Success](screenshot/success.png)
