@@ -38,27 +38,5 @@ InteractivePortfolio/
     └── image3.png
     ## 📸 Visual Documentation
 
-Below are the screenshots demonstrating the core functionality of the Interactive Portfolio.
 
-## 📸 Visual Documentation
-
-## 📸 Visual Documentation
-
-Below are the screenshots of the interactive features implemented in this project.
-
-### 1. Light Mode View
-This screenshot shows the portfolio's default light theme and the project slider.
-![Light Mode](screenshot/lightmode.png)
-
-### 2. Dark Mode View
-This screenshot demonstrates the dark theme toggle functionality and state persistence.
-![Dark Mode](screenshot/darkmode.png)
-
-### 3. Validation Success
-This shows the feedback provided when the contact form is filled out correctly.
-![Validation Success](screenshot/success.png)
-
-### 4. Validation Error
-This shows the error handling when the email format is incorrect or the message is too short.
-![Validation Error](screenshot/error.png)
 
