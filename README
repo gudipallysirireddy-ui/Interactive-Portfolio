@@ -1,0 +1,61 @@
+# Interactive Portfolio Website 🚀
+**Week 3: JavaScript - Making Websites Interactive**
+
+## 📝 Project Overview
+This project is a dynamic, single-page portfolio designed to showcase interactive web features using vanilla JavaScript. The goal was to move beyond static HTML/CSS by implementing DOM manipulation, event handling, and client-side form validation.
+
+## 🛠️ Setup Instructions
+To run this project locally:
+1. Download the `InteractivePortfolio` folder.
+2. Ensure the following file structure is maintained:
+   - `index.html`
+   - `style.css`
+   - `script.js`
+   - `images/` (Ensure `image1.png`, `image2.png`, etc., are inside)
+3. Open `index.html` in any modern web browser (Chrome, Edge, or Firefox).
+
+## 💻 Technical Details
+
+### JavaScript Features Implemented:
+* **DOM Manipulation:** Used `document.getElementById` to dynamically update image sources and form feedback messages.
+* **Event Listeners:** * `click` events for the image slider and theme toggle.
+    * `submit` event for the contact form to prevent default page reloading.
+* **State Management:** Utilized `localStorage` to remember the user's Dark/Light mode preference even after a page refresh.
+* **Form Validation Logic:**
+    * Checks for the presence of the `@` symbol in the email field.
+    * Validates that the message length is at least **10 characters**.
+    * Provides real-time color-coded feedback (Red for errors, Green for success).
+
+## 📂 Code Structure
+```text
+InteractivePortfolio/
+├── index.html        # Main HTML5 structure
+├── style.css         # Layout, styling, and Dark Mode variables
+├── script.js        # JavaScript logic (Slider, Validation, Toggle)
+└── images/           # Contains project assets (PNG format)
+    ├── image1.png
+    ├── image2.png
+    └── image3.png
+    ## 📸 Visual Documentation
+
+Below are the screenshots demonstrating the core functionality of the Interactive Portfolio.
+
+## 📸 Visual Documentation
+
+Below are the screenshots proving the interactive functionality of the portfolio.
+
+### 1. Light Mode
+The initial landing page featuring the navigation bar and the first project image (image1.png).
+![Light Mode](screenshots/lightmode.png)
+
+### 2. Dark Mode
+The theme toggled via JavaScript, applying a dark background and high-contrast text.
+![Dark Mode](screenshots/darkmode.png)
+
+### 3. Form Validation Error
+Demonstrating the validation logic when an invalid email is entered or the message is too short.
+![Validation Error](screenshots/error.png)
+
+### 4. Form Validation Success
+Confirming the success state once the user inputs correct data and the form is cleared.
+![Validation Success](screenshots/success.png)

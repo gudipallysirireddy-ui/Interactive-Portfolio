@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <button id="theme-toggle">Toggle Dark Mode</button>
+    </nav>
+
+    <main>
+        <section id="portfolio">
+            <h2>My Projects</h2>
+            <div class="image-container">
+                <img id="main-image" src="images/image1.png" alt="Portfolio Project">
+                <div class="button-group">
+                    <button id="prev-btn">Previous</button>
+                    <button id="next-btn">Next</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="portfolio-form">
+                <input type="email" id="user-email" placeholder="Enter Email" required>
+                <textarea id="user-message" placeholder="Your Message (10+ chars)" required></textarea>
+                <button type="submit">Submit</button>
+                <div id="error-message"></div>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
