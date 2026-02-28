@@ -46,16 +46,17 @@ Below are the screenshots proving the interactive functionality of the portfolio
 
 ### 1. Light Mode
 The initial landing page featuring the navigation bar and the first project image (image1.png).
-![Light Mode](screenshots/lightmode.png)
+![Light Mode](screenshot/lightmode.png)
 
 ### 2. Dark Mode
 The theme toggled via JavaScript, applying a dark background and high-contrast text.
-![Dark Mode](screenshots/darkmode.png)
+![Dark Mode](screenshot/darkmode.png)
 
 ### 3. Form Validation Error
 Demonstrating the validation logic when an invalid email is entered or the message is too short.
-![Validation Error](screenshots/error.png)
+![Validation Error](screenshot/error.png)
 
 ### 4. Form Validation Success
 Confirming the success state once the user inputs correct data and the form is cleared.
-![Validation Success](screenshots/success.png)
+
+![Validation Success](screenshot/success.png)
